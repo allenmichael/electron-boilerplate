@@ -1,0 +1,1 @@
+Electron application template (using Webpack + TypeScript + React + VisualStudio Code)
