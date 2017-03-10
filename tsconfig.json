@@ -2,10 +2,16 @@
     "compilerOptions": {
         "outDir": "./",
         "sourceMap": true,
-        "noImplicitAny": true,
         "module": "commonjs",
-        "target": "es5",
-        "jsx": "react"
+        "target": "es6",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true
     },
     "files": [
         "./main.ts",
