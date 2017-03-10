@@ -1,22 +1,25 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-boilerplate",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Boilerplate for starting an Electron + React + Typescript application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "tsc && webpack"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/ParkerICI/electron-boilerplate",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
-    "demo"
+    "webpack",
+    "react",
+    "typescript"
   ],
-  "author": "GitHub",
+  "author": "pfgherardini",
   "license": "CC0-1.0",
   "devDependencies": {
+    "@types/electron": "^1.4.33",
     "@types/react": "^15.0.14",
     "@types/react-dom": "^0.14.23",
     "electron": "^1.4.1",
